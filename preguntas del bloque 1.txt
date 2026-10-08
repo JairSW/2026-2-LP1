@@ -1,0 +1,17 @@
+LABORATORIO : ARREGLOS, PUNTEROS Y GESTION DE CADENA DE CARACTERES
+INTEGRANTES:
+CORNEJO GOMEZ GIOVANNI RAFAEL - CODIGO 20250159A
+SOPLA DURAND JAIR ALEXIS - CODIGO 202251125C
+1.1 
+a. Son iguales , *(datos+i) nos permite acceder a todos los elementos ya que el nombre del arreglo mismo nos de acceso a la dirección de su primer elemento 
+y al estar sumándole 1 en cada iteración este se mueve una posición para mostrar el elemento siguiente.
+b.Si se imprime sizeof(datos) se imprimiría 40 , ya que se calcula los bytes de todo el arreglo y como hay 10 elementos que son del tipo int(4 bytes) , estos
+se multiplican poor 10 , dando como resultado 40 ; en caso de sizeof(datos[0]) el resultado es 4 bytes , ya que datos[0] es un int y el tamaño de un int es
+4 bytes.
+1.2
+a.Si se almacenan en un bloque contiguo de memoria, al imprimir las direcciones dadas notamos que es contiguo ya que aumenta en 4 bytes cada posición contigua
+m[0][0] = 0000003E53FFFD50
+m[0][1] = 0000003E53FFFD54
+m[1][0] = 0000003E53FFFD60
+b. No existe diferencia en cuanto al valor, se imprime el mismo valor usando cualquiera de los dos , solo que en una de ellas usamos punteros.
+
